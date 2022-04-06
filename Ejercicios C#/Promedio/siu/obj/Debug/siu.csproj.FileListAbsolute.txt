@@ -1,0 +1,7 @@
+C:\Users\iqqlabs\source\repos\siu\siu\bin\Debug\siu.exe.config
+C:\Users\iqqlabs\source\repos\siu\siu\bin\Debug\siu.exe
+C:\Users\iqqlabs\source\repos\siu\siu\bin\Debug\siu.pdb
+C:\Users\iqqlabs\source\repos\siu\siu\obj\Debug\siu.csprojAssemblyReference.cache
+C:\Users\iqqlabs\source\repos\siu\siu\obj\Debug\siu.csproj.CoreCompileInputs.cache
+C:\Users\iqqlabs\source\repos\siu\siu\obj\Debug\siu.exe
+C:\Users\iqqlabs\source\repos\siu\siu\obj\Debug\siu.pdb
