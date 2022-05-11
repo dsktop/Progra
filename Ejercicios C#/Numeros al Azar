@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace GuiaEjercicio
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int mydelay = 30000;
+            Console.Write("The delay starts.\n");
+
+            int numero1, numero2;
+
+            Random rad = new Random();
+
+            
+
+            for(int i = 0; i <= 6; i++)
+            {
+                numero1 = rad.Next(10);
+                numero2 = rad.Next(10);
+                Console.WriteLine("{0} {1}", numero1, numero2);
+            }
+
+           
+
+
+
+            Thread.Sleep(mydelay);
+            Console.Write("Tiempo agotado.");
+
+            Console.ReadKey();
+        }
+    }
+}
