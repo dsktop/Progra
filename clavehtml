@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="panel-container">
+
+        <div id="panel">
+            <input style="margin-left: 2.9rem;" min="1" max="4" type="number" id="valorResultado" disabled />
+            <div style="position: absolute; margin-left: 10rem;">
+                <p id="advertencia"></p>
+            </div>
+        </div>
+        <div id="panel-digitps" style="margin-left: 3rem; margin-top: 1rem;">
+            <div id="panel-numeros">
+                <button id="btn1" onclick="txtValor(1)">1</button>
+                <button id="btn2" onclick="txtValor(2)">2</button>
+    
+            </div>
+            <div id="panel-numeros2">
+                
+                <button id="btn3" onclick="txtValor(3)">3</button>
+                <button id="btn4" onclick="txtValor(4)">4</button>
+            </div>
+        </div>
+        <button id="refresh" style="margin-left: 2rem; margin-top: 1rem;">Reintentar</button>
+    </div>
+</body>
+</html>
+<script>
+    
+    let input2 = true;
+    let signo = "";
+    let input = "";
+
+    function txtValor(numero) {
+        document.getElementById('valorResultado').value += numero;
+        console.log(document.getElementById('valorResultado').value);
+
+        if (document.getElementById('valorResultado').value.length == 4) {
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+
+        let brow = document.getElementById('valorResultado').value;
+
+        if (brow[0] == 1) {
+            document.getElementById('advertencia').innerHTML = 'Error intentelo nuevamente'
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+        if (brow[1] == 2) {
+            document.getElementById('advertencia').innerHTML = 'Error intentelo nuevamente'
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+        if (brow[2] == 3) {
+            document.getElementById('advertencia').innerHTML = 'Error intentelo nuevamente'
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+        if (brow[3] == 4) {
+            document.getElementById('advertencia').innerHTML = 'Error intentelo nuevamente'
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+
+        if(brow[0] == brow[1] & brow[2] == brow[3]){
+            document.getElementById('advertencia').innerHTML = 'Error numeros repetidos intentelo nuevamente'
+            document.querySelector("#btn1").disabled = true;
+            document.querySelector("#btn2").disabled = true;
+            document.querySelector("#btn3").disabled = true;
+            document.querySelector("#btn4").disabled = true;
+        }
+
+        if(brow[0] == 3){
+            if(brow[1] == 1){
+                if(brow[2] == 4){
+                    if(brow[3] == 2){
+                        document.getElementById('advertencia').innerHTML = 'Correcto'
+                    }
+                }
+            }
+        }else{
+            document.getElementById('advertencia').innerHTML = 'Incorrecto intentelo nuevamente'
+        }
+        
+
+        
+            
+    }
+    
+</script>
+
+<script>
+    let refresh = document.getElementById('refresh');
+    refresh.addEventListener('click',function() {
+            location.reload();
+    })
+</script>
