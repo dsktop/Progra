@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+
+        public static void cantinero1atiende()
+        {
+            for (int i=0; i<100; i++)
+            {
+                Console.WriteLine("cantinero 1 Sirve cerveza "+i);
+                System.Threading.Thread.Sleep(100);
+            }
+           
+        }
+
+        public static void cantinero2atiende()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+               Console.WriteLine("cantinero 2 Sirve cerveza "+i);
+                System.Threading.Thread.Sleep(100);
+            }
+            
+        }
+
+        static void Main(string[] args)
+        {
+            System.Threading.Thread cantinero1 =
+            new System.Threading.Thread(new System.Threading.ThreadStart(cantinero1atiende));
+
+            System.Threading.Thread cantinero2 =
+            new System.Threading.Thread(new System.Threading.ThreadStart(cantinero2atiende));
+
+            cantinero1.Start();
+            cantinero2.Start();
+
+            Console.ReadKey();
+        }
+    }
+}
