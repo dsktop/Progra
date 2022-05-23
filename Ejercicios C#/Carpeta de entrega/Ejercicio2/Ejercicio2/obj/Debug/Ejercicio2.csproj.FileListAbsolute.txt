@@ -1,0 +1,13 @@
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\iqqlabs\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.pdb
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csprojAssemblyReference.cache
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\iqqlabs\source\repos\Carpeta de entrega\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.pdb
