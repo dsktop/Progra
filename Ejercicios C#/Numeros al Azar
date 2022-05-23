@@ -11,9 +11,7 @@ namespace GuiaEjercicio
     {
         static void Main(string[] args)
         {
-            int mydelay = 30000;
-            Console.Write("The delay starts.\n");
-
+        
             int numero1, numero2;
 
             Random rad = new Random();
@@ -28,11 +26,6 @@ namespace GuiaEjercicio
             }
 
            
-
-
-
-            Thread.Sleep(mydelay);
-            Console.Write("Tiempo agotado.");
 
             Console.ReadKey();
         }
